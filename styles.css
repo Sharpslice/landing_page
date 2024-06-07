@@ -1,0 +1,60 @@
+ul{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 0px 400px;
+    
+    align-items: center;
+    
+}
+.h-links{
+    display: flex;
+    gap:16px;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px 400px;
+    gap:50px;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.title-text{
+   
+}
+
+.button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: none;
+    width: 100px;
+    padding:6px;
+}
+
+.main-img img{
+    width:400px;
+    
+    flex-shrink: 0;
+}
